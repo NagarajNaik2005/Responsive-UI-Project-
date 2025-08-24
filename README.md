@@ -20,7 +20,7 @@ This project is designed to showcase a minimal yet attractive interface that ada
 ---
 
 ## 📸 Preview  
-[Website Screenshot](  
+[Website Screenshot](Preview.png) 
 
 ---
 
