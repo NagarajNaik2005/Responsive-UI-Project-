@@ -29,6 +29,10 @@ This project is designed to showcase a minimal yet attractive interface that ada
 
 ---
 
+## 📧 Contact
+[LinkedIn](https://www.linkedin.com/in/nagaraj-naik-2995852ba)
+[Email](mailto:mrnagarajnaik2005@gmail.com)
+
 ## 📂 Installation & Setup  
 
 If you’d like to run this project locally:  
@@ -41,3 +45,5 @@ git clone https://github.com/NagarajNaik2005/Responsive-UI-Project.git
 cd Responsive-UI-Project
 
 # Open index.html in your browser
+
+
