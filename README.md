@@ -32,6 +32,7 @@ This project is designed to showcase a minimal yet attractive interface that ada
 ## 📧 Contact
 - [💼 LinkedIn](https://www.linkedin.com/in/nagaraj-naik-2995852ba)
 - [📩 Email](mailto:mrnagarajnaik2005@gmail.com)
+- [💻 GitHub](https://github.com/NagarajNaik2005)
 
 ---
 
