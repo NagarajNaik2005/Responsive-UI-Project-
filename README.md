@@ -25,7 +25,7 @@ This project is designed to showcase a minimal yet attractive interface that ada
 ---
 
 ## 🌐 Live Demo  
-🔗 [View on GitHub Pages](https://NagarajNaik2005.github.io/Responsive-UI-Project/)  
+🔗 [View on GitHub Pages](https://NagarajNaik2005.github.io/Responsive-UI-Project-/)  
 
 ---
 
