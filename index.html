@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Complete Web Page </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./output.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-50 font-openSans">
+       <header class="container mx-auto flex justify-between items-center p-6">
+        <h1 class="font-bold text-3xl text-blue-400"><a href="">BrandName</a></h1>
+        <span class="md:hidden"><i class="fa-solid fa-bars"></i></span>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="">Home</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="" class="bg-blue-600 text-white py-2 px-4 rounded transition duration-300 hover:bg-blue-900">Login</a></li>
+        </ul>
+       </header>
+
+       <section id="hero" class="container mx-auto grid items-center grid-cols-1 md:grid-cols-2 px-6 py-16">
+        <div id="left" class="max-w-[550px] mb-4 md:mb-0">
+            <h2 class="text-2xl sm:text-3xl md:text-5xl text-gray-900 dark:text-white font-extrabold mb-4">
+                Build Modern UIs Fast with <span class="text-blue-400">Tailwind CSS V4</span></h2>
+            <p class="mb-4"> A utility first CSS framework packed with features to help you build beautiful responsive websites with ease</p>
+            <button class="px-6 py-4 bg-blue-700 rounded-lg transition duration-300 hover:bg-blue-900">
+                Get Started
+            </button>
+        </div>
+        <div id="right">
+            <img src="programmer-night.jpg" alt="" class="rounded-lg shadow-lg aspect-video">
+        </div>
+       </section>
+
+       <section id="features" class="container mx-auto  px-6 py-16">
+        <h2 class="text-center text-3xl font-bold mb-6">Features</h2>
+         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="features bg-gray-700 rounded-lg flex flex-col items-center px-6 py-8">
+            <span class="text-4xl">⚡</span>
+            <h3 class="text-xl  text-white font-bold py-2">Blazing Fast</h3>
+            <p class=" text-white ">Tailwind v4 is optimized for performance with a new engine and instant builds</p>
+        </div>
+       
+        <div class="features bg-gray-700 rounded-lg flex flex-col items-center px-6 py-8">
+            <span class="text-4xl">🎨</span>
+            <h3 class="text-xl  text-white  font-bold py-2">Utility-First</h3>
+            <p class=" text-white ">Compose any design directly in your HTML using  small,reusable classes</p>
+        </div>
+        <div class="features bg-gray-700 rounded-lg flex flex-col items-center px-6 py-8">
+            <span class="text-4xl">🌙</span>
+            <h3 class="text-xl   text-white  font-bold py-2">Dark Mode</h3>
+            <p class=" text-white ">Build-in dark mode support with simple class togging</p>
+        </div>
+        </div>
+       </section>
+
+       <section id="products">
+        <h2 class="text-center text-3xl font-bold mb-6">Product Showcase</h2>
+         <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="product bg-gray-700 rounded-lg flex flex-col p-4">
+            <img src="photo-camera-still-life.jpg" alt="" class="rounded mb-4 aspect-video object-cover">
+            <h3 class=" text-left text-xl  text-white  font-bold">Sony Alpha 7</h3>
+            <p class="mb-4 mt-2  text-white ">A modern Product with amazing features and design</p>
+            <button class="px-16 py-3 sm:px-32 py-3 md:px-42 py-3 bg-blue-700 rounded-lg transition duration-300 hover:bg-blue-900  text-white whitespace-nowrap">Buy Now</button>
+        </div>
+        <div class="product  bg-gray-700 rounded-lg flex flex-col p-4">
+             <img src="drone-flying-mountain-landscape.jpg" alt="" class="rounded mb-4 aspect-video object-cover">
+            <h3 class=" text-left text-xl  text-white  font-bold">DJI Mini 4</h3>
+            <p class="mb-4 mt-2  text-white ">Experience the next generation of innovation</p>
+            <button class="px-16 py-3 sm:px-32 py-3 md:px-42 py-3 bg-blue-700 rounded-lg transition duration-300 hover:bg-blue-900  text-white whitespace-nowrap">Buy Now</button>
+        </div>
+        <div class="product  bg-gray-700 rounded-lg flex flex-col p-4">
+             <img src="jakob-owens-43ScE4gMZGA-unsplash.jpg" alt="" class="rounded mb-4 aspect-video object-cover">
+            <h3 class="text-left text-xl  text-white  font-bold">DJI Ronin</h3>
+            <p class="mb-4 mt-2  text-white ">Top-rated device for modern generation</p>
+            <button class="px-16 py-3 sm:px-32 py-3 md:px-42 py-3 bg-blue-700 rounded-lg transition duration-300 hover:bg-blue-900  text-white whitespace-nowrap">Buy Now</button>
+        </div>
+        </div>
+       </section>
+
+       <section id="contact">
+        <h2 class="text-center text-3xl font-bold mb-6 mt-6">Contact Us</h2>
+        <form action="" class="max-w-lg mx-auto bg-gray-900 dark:bg-gray-800 rounded-lg shadow p-8 space-y-6">
+            <div>
+                <label for="" class="font-bold mb-2  text-white">Name</label>
+                <input type="text" class="form-input">
+            </div>
+             <div>
+                <label for="" class="font-bold mb-2  text-white " >Email</label>
+                <input type="email" class="form-input">
+            </div>
+             <div>
+                <label for="" class="font-bold mb-2  text-white " >Message</label>
+                <textarea name="" id="" rows="4"  class="form-input"></textarea>
+            </div>
+            <button type="submit" class="px-16 py-3 sm:px-32 py-3 md:px-42 py-3 bg-blue-700 rounded transition duration-300 hover:bg-blue-900">Send Message </button>
+        </form>
+       </section>
+
+
+       <footer class="text-center pt-20 pb-8 text-md text-gray-400">
+         &copy; 2025 BrandName.All Rights Reserved
+       </footer>
+       
+    </body>
+</html>
